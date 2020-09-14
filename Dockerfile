@@ -1,5 +1,5 @@
 FROM node
-RUN git clone git@github.com:naungsoe-yan/koa.git
+RUN git clone https://github.com/naungsoe-yan/koajs.git
 WORKDIR koa
 RUN npm install 
 EXPOSE 8080
